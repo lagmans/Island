@@ -1,0 +1,8 @@
+module com.javarush.island.island {
+    requires javafx.controls;
+    requires javafx.fxml;
+
+
+    opens com.javarush.gui to javafx.fxml;
+    exports com.javarush.gui;
+}
