@@ -1,22 +1,25 @@
 package com.javarush.entity;
 
-import java.util.concurrent.atomic.AtomicInteger;
+import com.javarush.map.Cell;
 
 public abstract class Animal {
 
-    AtomicInteger weight;
 
-    boolean isAlive;
 
-    public void eat(Object obj) {
+    public long weight;
+
+
+
+
+    public void eat() {
 
     }
 
-    public Animal reproduction() {
-        return null;
+    public void reproduction() {
+
     }
 
-    public void move(Object obj) {
+    public void move() {
 
     }
 

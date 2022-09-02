@@ -1,16 +1,28 @@
 <?xml version="1.0" encoding="UTF-8"?>
 
-<?import javafx.geometry.Insets?>
-<?import javafx.scene.control.Label?>
-<?import javafx.scene.layout.VBox?>
-
 <?import javafx.scene.control.Button?>
-<VBox alignment="CENTER" spacing="20.0" xmlns:fx="http://javafx.com/fxml"
-      fx:controller="com.javarush.gui.HelloController">
-    <padding>
-        <Insets bottom="20.0" left="20.0" right="20.0" top="20.0"/>
-    </padding>
+<?import javafx.scene.control.Label?>
+<?import javafx.scene.control.ScrollPane?>
+<?import javafx.scene.layout.AnchorPane?>
+<?import javafx.scene.text.Font?>
 
-    <Label fx:id="welcomeText"/>
-    <Button text="Hello!" onAction="#onHelloButtonClick"/>
-</VBox>
+<AnchorPane maxHeight="-Infinity" maxWidth="-Infinity" minHeight="-Infinity" minWidth="-Infinity" prefHeight="400.0" prefWidth="700.0" xmlns="http://javafx.com/javafx/18" xmlns:fx="http://javafx.com/fxml/1" fx:controller="com.javarush.gui.Controller" >
+   <children>
+      <AnchorPane layoutY="62.0" prefHeight="338.0" prefWidth="700.0">
+         <children>
+            <Button fx:id="Button2" layoutX="42.0" layoutY="32.0" mnemonicParsing="false" onAction="#Button2" prefHeight="32.0" prefWidth="114.0" text="Start " />
+            <Button fx:id="Buttom3" layoutX="40.0" layoutY="103.0" mnemonicParsing="false" onAction="#Buttom3" prefHeight="32.0" prefWidth="114.0" text="Stop" />
+            <ScrollPane layoutX="225.0" layoutY="32.0" prefHeight="280.0" prefWidth="442.0">
+              <content>
+                <AnchorPane minHeight="0.0" minWidth="0.0" prefHeight="279.0" prefWidth="435.0" />
+              </content>
+            </ScrollPane>
+         </children>
+      </AnchorPane>
+      <Label contentDisplay="CENTER" layoutX="316.0" layoutY="14.0" nodeOrientation="LEFT_TO_RIGHT" prefHeight="17.0" prefWidth="189.0" text="Island">
+         <font>
+            <Font name="Calibri" size="28.0" />
+         </font>
+      </Label>
+   </children>
+</AnchorPane>

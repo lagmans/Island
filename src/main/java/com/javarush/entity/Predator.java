@@ -1,12 +1,11 @@
 package com.javarush.entity;
 
+import com.javarush.map.Cell;
+
 public abstract class Predator extends Animal {
 
-    @Override
-    public void eat(Object obj) {
-        if (!(obj instanceof Animal)){
-            return;
-        }
-        super.eat(obj);
+    public int hunt() {
+         return 0;
     }
+
 }
