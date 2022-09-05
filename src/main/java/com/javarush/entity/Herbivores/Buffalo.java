@@ -4,7 +4,6 @@ import com.javarush.entity.Herbivore;
 import com.javarush.map.*;
 
 import java.util.concurrent.ThreadLocalRandom;
-import java.util.concurrent.atomic.AtomicInteger;
 
 public class Buffalo extends Herbivore {
 

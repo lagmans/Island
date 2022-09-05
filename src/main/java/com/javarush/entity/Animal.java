@@ -1,7 +1,5 @@
 package com.javarush.entity;
 
-import com.javarush.map.Cell;
-
 public abstract class Animal {
 
 

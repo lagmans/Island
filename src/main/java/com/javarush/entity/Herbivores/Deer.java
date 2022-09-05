@@ -15,8 +15,7 @@ public class Deer extends Herbivore {
         this.cell = cell;
     }
 
-    public Deer() {
-    }
+
 
     @Override
     public synchronized void reproduction() {
